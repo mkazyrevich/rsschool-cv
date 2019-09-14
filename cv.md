@@ -24,3 +24,8 @@ let expressionMatter = function(a,b,c) {
     return Math.max(a+b+c, a+b*c, (a+b)*c, a*b*c, a*b+c, a*(b+c));
 }
 ```
+
+## Experience:
+
+* Solving tasks on [CodeWars](https://www.codewars.com/users/mkazyrevich/completed);
+* doing exercises from the [javascript.info](https://javascript.info/)
