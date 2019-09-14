@@ -18,13 +18,8 @@ Currently I work as a QA tester of software for chemical and pharmaceutical rese
 * work with **Git** version control system.
 
 ## Code example:
-The following code is a solution of small [Kata](https://www.codewars.com/kata/5ae62fcf252e66d44d00008e) from CodeWars and returns the largest number obtained after applying the operators + and * and brackets *()* to the three integers *a*, *b* and *c*:    
-   ```javascript
+The following code is a solution of small [Kata](https://www.codewars.com/kata/5ae62fcf252e66d44d00008e) from CodeWars in Javascript and returns the largest number obtained after applying the operators + and * and brackets *()* to the three integers *a*, *b* and *c*:
+
     let expressionMatter = function(a,b,c) {
         return Math.max(a+b+c, a+b*c, (a+b)*c, a*b*c, a*b+c, a*(b+c));
     }
-    ```
-
-
-
-
