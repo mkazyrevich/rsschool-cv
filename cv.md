@@ -29,3 +29,12 @@ let expressionMatter = function(a,b,c) {
 
 * Solving tasks on [CodeWars](https://www.codewars.com/users/mkazyrevich/completed);
 * doing exercises from the [javascript.info](https://javascript.info/)
+
+## Education:
+
+1. Higher Education Program: Belarusian State University, Faculty of Chemistry (2009-2014);
+2. Master Degree Study Course: Belarusian State University, Faculty of Chemistry (2014-2015);
+3. Research Degree (PhD) Study Course: Belarusian State University, Faculty of Chemistry (2015-2018); 
+4. [Introduction to HTML](https://www.codecademy.com/learn/learn-html) and [Learn CSS](https://www.codecademy.com/learn/learn-css) courses on Codeacademy ([achievements](https://www.codecademy.com/profiles/MKazyrevich));
+5. Self-study of Javascript on the [javascript.info](https://javascript.info/);
+6. [YouTube course](https://www.youtube.com/watch?v=en6gms6e54Q&list=PLIU76b8Cjem5B3sufBJ_KFTpKkMEvaTQR) on Git. 
