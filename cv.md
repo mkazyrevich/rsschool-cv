@@ -43,3 +43,4 @@ let expressionMatter = function(a,b,c) {
 
 * Finished Streamline Intermediate (B1) course;
 * work with technical literature (documentation, manuals, scientific articles) in English. 
+***
