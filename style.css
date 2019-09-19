@@ -37,10 +37,11 @@
   border-right: none
 }
 .personal-info {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 80px;
 }
 .my-photo {
   max-height: 60vh;
@@ -67,6 +68,39 @@ font-size: 3em;
 .contacts-list a img:hover {
   transform: scale(1.1);
 }
-#summary {
-  margin-top: 60px;
+.caption {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 20px;
+  padding-top: 60px;
 }
+.description {
+  text-indent: 30px;
+  font-size: 1.2em;
+  text-align: justify;
+  border-bottom: 2px solid rgb(0,0,0);
+  padding-bottom: 30px;
+  line-height: 40px;
+}
+.bold {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.skills-list  {
+  padding-left: 30px;
+}
+.skills-list li {
+  line-height: 60px;
+}
+.skills-list li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-image: url(/assets/skills.png);
+  margin-top: 5px;
+} 
+ 
+
+
+
