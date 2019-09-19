@@ -1,6 +1,5 @@
 .wrapper {
   width: 1024px;
-  /* width: 100vw; */
   margin: 0 auto;
 }
 
@@ -9,7 +8,6 @@
   top: 0px;
   z-index: 10;
   min-height: 50px;
-  /* width: 100vw; */
   width: 1024px;
   display: flex;
   align-items: center;
@@ -37,7 +35,6 @@
   border-right: none
 }
 .personal-info {
-  /* margin-top: 80px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -79,7 +76,7 @@ font-size: 3em;
   font-size: 1.2em;
   text-align: justify;
   border-bottom: 2px solid rgb(0,0,0);
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   line-height: 40px;
 }
 .bold {
@@ -99,7 +96,20 @@ font-size: 3em;
   width: 50px;
   background-image: url(/assets/skills.png);
   margin-top: 5px;
-} 
+}
+.english-level  {
+  padding-left: 30px;
+}
+.english-level li {
+  line-height: 60px;
+}
+.english-level li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-image: url(/assets/english.png);
+  margin-top: 5px; 
  
 
 
