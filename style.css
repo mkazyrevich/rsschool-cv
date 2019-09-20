@@ -21,16 +21,14 @@
   text-decoration: none;
   color: rgb(0,0,0);
   font-weight: bold;
+  border-right: 2px solid rgb(0,0,0);
+  padding-right: 25px;
+  padding-left: 25px;
 }
 .nav-bar a:hover {
   transform: scale(1.1);
   color: rgb(100, 107, 114);
 }
-.nav-bar a {
-  border-right: 2px solid rgb(0,0,0);
-  padding-right: 25px;
-  padding-left: 25px;
-}  
 .nav-bar a:last-child {
   border-right: none
 }
@@ -109,8 +107,30 @@ font-size: 3em;
   height: 50px;
   width: 50px;
   background-image: url(/assets/english.png);
-  margin-top: 5px; 
- 
-
-
+  margin-top: 5px;
+} 
+.education  {
+  padding-left: 30px;
+}
+.education li {
+  line-height: 60px;
+}
+.education li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-image: url(/assets/education.png);
+  margin-top: 5px;
+}
+.link {
+  text-decoration: none;
+  color: rgb(0,0,0);
+  font-weight: bold;
+}
+.link:hover {
+  font-size: 1.1em;
+  color: rgb(3, 37, 70);
+  
+}
 
