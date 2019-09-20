@@ -131,6 +131,19 @@ font-size: 3em;
 .link:hover {
   font-size: 1.1em;
   color: rgb(3, 37, 70);
-  
+}
+.experience  {
+  padding-left: 30px;
+}
+.experience li {
+  line-height: 60px;
+}
+.experience li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-image: url(/assets/experience.png);
+  margin-top: 5px;
 }
 
