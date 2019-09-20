@@ -14,6 +14,7 @@
   justify-content: space-around; 
   background-color: rgb(255, 255, 255);
 }
+
 .nav-bar a {
   display: flex;
   align-items: center;
@@ -25,23 +26,28 @@
   padding-right: 25px;
   padding-left: 25px;
 }
+
 .nav-bar a:hover {
   transform: scale(1.1);
   color: rgb(100, 107, 114);
 }
+
 .nav-bar a:last-child {
   border-right: none
 }
+
 .personal-info {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-top: 80px;
 }
+
 .my-photo {
   max-height: 60vh;
   width: auto;
 }
+
 .contacts-list ul {
   border-top: 2px solid rgb(0,0,0);
   padding-top: 3px;
@@ -49,26 +55,32 @@
   padding-bottom: 3px;
   margin-top: 30px;
 }
+
 .contacts-list ul li {
   text-align: center;
   padding-top: 10px; 
 }
+
 .name-surname {
 text-align: center;
 font-size: 3em;
 }
+
 .contacts-list ul li img {
   padding-right: 10px;
 }
+
 .contacts-list a img:hover {
   transform: scale(1.1);
 }
+
 .caption {
   text-align: center;
   font-size: 2em;
   padding-bottom: 20px;
   padding-top: 60px;
 }
+
 .description {
   text-indent: 30px;
   font-size: 1.2em;
@@ -77,73 +89,77 @@ font-size: 3em;
   padding-bottom: 25px;
   line-height: 40px;
 }
+
 .bold {
   font-weight: bold;
   font-size: 1.2em;
 }
-.skills-list  {
+
+.skills-list, .experience-list, .education-list, .english-level-list {
   padding-left: 30px;
 }
-.skills-list li {
+
+.skills-list, .experience-list, .education-list, .english-level-list li {
   line-height: 60px;
 }
+
 .skills-list li:before {
   content: "";
   float: left;
   height: 50px;
   width: 50px;
+  margin-top: 5px;
   background-image: url(/assets/skills.png);
-  margin-top: 5px;
 }
-.english-level  {
-  padding-left: 30px;
-}
-.english-level li {
-  line-height: 60px;
-}
-.english-level li:before {
+
+.english-level-list li:before {
   content: "";
   float: left;
   height: 50px;
   width: 50px;
+  margin-top: 5px;
   background-image: url(/assets/english.png);
-  margin-top: 5px;
 } 
-.education  {
-  padding-left: 30px;
-}
-.education li {
-  line-height: 60px;
-}
-.education li:before {
+
+.education-list li:before {
   content: "";
   float: left;
   height: 50px;
   width: 50px;
-  background-image: url(/assets/education.png);
   margin-top: 5px;
+  background-image: url(/assets/education.png);
 }
+
+.experience-list li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  background-image: url(/assets/experience.png);
+}
+
 .link {
   text-decoration: none;
   color: rgb(0,0,0);
   font-weight: bold;
 }
+
 .link:hover {
   font-size: 1.1em;
   color: rgb(3, 37, 70);
 }
-.experience  {
-  padding-left: 30px;
+
+.code {
+  font-family: Calibri;
+  font-style: italic;
+  text-align: left;
+  text-indent: 0px;
+  font-size: 1.1em;
+  padding-top: 30px;
 }
-.experience li {
-  line-height: 60px;
-}
-.experience li:before {
-  content: "";
-  float: left;
-  height: 50px;
-  width: 50px;
-  background-image: url(/assets/experience.png);
-  margin-top: 5px;
+
+.italic {
+  font-style: italic;
 }
 
