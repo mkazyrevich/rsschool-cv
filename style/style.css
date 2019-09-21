@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Kreon";
-  src: url(/assets/fonts/Kreon/Kreon/Kreon-VariableFont_wght.ttf);
+  src: url(../assets/fonts/Kreon/Kreon/Kreon-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: "Lato";
-  src: url(/assets/fonts/Lato/Lato-Regular.ttf);
+  src: url(../assets/fonts/Lato/Lato-Regular.ttf);
 }
 
 @font-face {
   font-family: "Bree Serif";
-  src: url(/assets/fonts/Bree_Serif/BreeSerif-Regular.ttf);
+  src: url(../assets/fonts/Bree_Serif/BreeSerif-Regular.ttf);
 }
 
 .wrapper {
@@ -124,7 +124,7 @@ font-family: "Kreon", "Times New Roman", serif;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/images/skills.png);
+  background-image: url(../assets/images/skills.png);
 }
 
 .english-level-list li:before {
@@ -133,7 +133,7 @@ font-family: "Kreon", "Times New Roman", serif;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/images/english.png);
+  background-image: url(../assets/images/english.png);
 } 
 
 .education-list li:before {
@@ -142,7 +142,7 @@ font-family: "Kreon", "Times New Roman", serif;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/images/education.png);
+  background-image: url(../assets/images/education.png);
 }
 
 .experience-list li:before {
@@ -151,7 +151,7 @@ font-family: "Kreon", "Times New Roman", serif;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/images/experience.png);
+  background-image: url(../assets/images/experience.png);
 }
 
 .link {
