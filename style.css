@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Kreon";
+  src: url(./assets/fonts/Kreon/Kreon/Kreon-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Bree Serif";
+  src: url(./assets/fonts/Bree_Serif/BreeSerif-Regular.ttf);
+}
+
 .wrapper {
   width: 1024px;
   margin: 0 auto;
@@ -65,6 +80,7 @@
 .name-surname {
 text-align: center;
 font-size: 3em;
+font-family: "Kreon", "Times New Roman", serif;
 }
 
 .contacts-list ul li img {
@@ -81,20 +97,17 @@ font-size: 3em;
   padding-bottom: 20px;
   margin-top: 10px;
   padding-top: 50px;
+  font-family: "Bree Serif", "Times New Roman", serif;
 }
 
 .description {
   text-indent: 30px;
-  font-size: 1.2em;
+  font-size: 1.12em;
   text-align: justify;
   border-bottom: 2px solid rgb(0,0,0);
   padding-bottom: 25px;
   line-height: 40px;
-}
-
-.bold {
-  font-weight: bold;
-  font-size: 1.2em;
+  font-family: "Lato", "Arial", sans-serif; 
 }
 
 .skills-list, .experience-list, .education-list, .english-level-list {
@@ -111,7 +124,7 @@ font-size: 3em;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/skills.png);
+  background-image: url(/assets/images/skills.png);
 }
 
 .english-level-list li:before {
@@ -120,7 +133,7 @@ font-size: 3em;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/english.png);
+  background-image: url(/assets/images/english.png);
 } 
 
 .education-list li:before {
@@ -129,7 +142,7 @@ font-size: 3em;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/education.png);
+  background-image: url(/assets/images/education.png);
 }
 
 .experience-list li:before {
@@ -138,7 +151,7 @@ font-size: 3em;
   height: 50px;
   width: 50px;
   margin-top: 5px;
-  background-image: url(/assets/experience.png);
+  background-image: url(/assets/images/experience.png);
 }
 
 .link {
