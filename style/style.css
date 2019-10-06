@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Kreon";
+  src: url(../assets/fonts/Kreon/Kreon/Kreon-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Bree Serif";
+  src: url(../assets/fonts/Bree_Serif/BreeSerif-Regular.ttf);
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  min-height: 50px;
+  width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-bar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: rgb(0,0,0);
+  font-weight: bold;
+  border-right: 2px solid rgb(0,0,0);
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.nav-bar a:hover {
+  transform: scale(1.1);
+  color: rgb(100, 107, 114);
+}
+
+.nav-bar a:last-child {
+  border-right: none
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+.my-photo {
+  max-height: 60vh;
+  width: auto;
+}
+
+.contacts-list ul {
+  border-top: 2px solid rgb(0,0,0);
+  padding-top: 3px;
+  border-bottom: 2px solid rgb(0,0,0);
+  padding-bottom: 3px;
+  margin-top: 30px;
+}
+
+.contacts-list ul li {
+  text-align: center;
+  padding-top: 10px; 
+}
+
+.name-surname {
+text-align: center;
+font-size: 3em;
+font-family: "Kreon", "Times New Roman", serif;
+}
+
+.contacts-list ul li img {
+  padding-right: 10px;
+}
+
+.contacts-list a img:hover {
+  transform: scale(1.1);
+}
+
+.caption {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 50px;
+  font-family: "Bree Serif", "Times New Roman", serif;
+}
+
+.description {
+  text-indent: 30px;
+  font-size: 1.12em;
+  text-align: justify;
+  border-bottom: 2px solid rgb(0,0,0);
+  padding-bottom: 25px;
+  line-height: 40px;
+  font-family: "Lato", "Arial", sans-serif; 
+}
+
+.skills-list, .experience-list, .education-list, .english-level-list {
+  padding-left: 30px;
+}
+
+.skills-list, .experience-list, .education-list, .english-level-list li {
+  line-height: 60px;
+}
+
+.skills-list li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  background-image: url(../assets/images/skills.png);
+}
+
+.english-level-list li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  background-image: url(../assets/images/english.png);
+} 
+
+.education-list li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  background-image: url(../assets/images/education.png);
+}
+
+.experience-list li:before {
+  content: "";
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  background-image: url(../assets/images/experience.png);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0,0,0);
+  font-weight: bold;
+}
+
+.link:hover {
+  font-size: 1.1em;
+  color: rgb(3, 37, 70);
+}
+
+.code {
+  font-family: Calibri;
+  font-style: italic;
+  text-align: left;
+  text-indent: 0px;
+  font-size: 1.1em;
+  padding-top: 30px;
+}
+
+.italic {
+  font-style: italic;
+}
+

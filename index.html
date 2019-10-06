@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="./style/style.css" rel="stylesheet">
+    <title>Resume</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="nav-bar">
+            <a href="#contact-info">Contact Info</a>
+            <a href="#summary">Summary</a>
+            <a href="#skills">Skills</a>
+            <a href="#code-example">Code example</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#english-level">English level</a>
+        </nav>
+      </header>
+      <main>
+        <section class="personal-info" id="contact-info">
+          <div class="name-contacts">
+            <h1 class="name-surname">Maksim Kazyrevich</h1>
+            <div class="contacts-list">
+              <ul>
+                <li><img src="./assets/images/email.png" alt="email" height="40" title='Email'>mkozyrevich@gmail.com</li>
+                <li><img src="./assets/images/phone.png" alt="phone number" height="35" title='Mobile'>+375297059571</li>
+                <li><a href="https://t.me/mkazyrevich" target="_blank"><img src="./assets/images/telegram.png" alt="Telegram: @mkazyrevich" height="40" title='Telegram'></a></li>
+                <li><a href="https://github.com/mkazyrevich" target="_blank"><img src="./assets/images/github.png" alt="GitHub: mkazyrevich" height="55" title='GitHub'></a></li>
+                <li><a href="https://www.linkedin.com/in/maksim-kazyrevich-53aa47167/" target="_blank"><img src="./assets/images/linkedin.png" alt="LinkedIn: Maksim Kazyrevich" height="40" title='LinkedIn'></a></li>
+              </ul>
+            </div>
+          </div>
+          <img class="my-photo" src="./assets/images/photo.jpg" alt="My Photo">
+        </section>
+        <section id="summary">
+          <h2 class="caption">Summary</h2>
+          <div class="description"> Currently I work as a QA tester of software for chemical and pharmaceutical research. My professional knowledge in chemistry allows me to evaluate the correctness of the program operation from the point of view of chemical scientists. In my opinion I have real opportunities for advancement in IT sphere and fast-paced web development seems to me a promising direction to implement my plans.  At this stage, I want to master the necessary skills for front-end and back-end web development of user-friendly products and I realize that the self-education plays a major role in this process.</div>
+        </section>
+        <section id="skills">
+          <h2 class="caption">Skills</h2>
+          <ul class="skills-list description">
+            <li>Basic knowledge of HTML5 and CSS3;</li>
+            <li>Basic knowledge of Javascript;</li>
+            <li>Work with Git version control system.</li>
+          </ul>
+        </section>
+        <section id="code-example">
+          <h2 class="caption">Code example</h2>
+          <div class="description">The following code is a solution of small <a href="https://www.codewars.com/users/mkazyrevich/completed" target="_blank" class="link">Kata</a> from CodeWars in Javascript and returns the largest number obtained after applying the operators <span class="italic">+</span> and <span class="italic">*</span> and brackets <span class="italic">()</span> to the three integers <span class="italic">a</span>, <span class="italic">b</span> and <span class="italic">c</span>:
+            <pre class="code">
+              let expressionMatter = function(a,b,c) {
+                return Math.max(a+b+c, a+b*c, (a+b)*c, a*b*c, a*b+c, a*(b+c));
+              }
+            </pre>
+          </div>
+        </section>
+        <section id="experience">
+          <h2 class="caption">Experience</h2>
+          <ul class="experience-list description">
+            <li>Solving tasks on <a href="https://www.codewars.com/users/mkazyrevich/completed" target="_blank" class="link">CodeWars</a>;</li>
+            <li>Doing exercises from the <a href="https://javascript.info/" target="_blank" class="link">javascript.info.</a></li>
+          </ul>
+        </section>
+        <section id="education">
+          <h2 class="caption">Education</h2>
+          <ul class="education-list description">
+            <li>Higher Education Program: Belarusian State University, Faculty of Chemistry (2009-2014);</li>
+            <li>Master Degree Study Course: Belarusian State University, Faculty of Chemistry (2014-2015);</li>
+            <li>PhD Study Course: Belarusian State University, Faculty of Chemistry (2015-2018);</li>
+            <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank" class="link">Introduction to HTML</a> and <a href="https://www.codecademy.com/learn/learn-css" target="_blank" class="link">Learn CSS</a> courses on Codeacademy (<a href="https://www.codecademy.com/profiles/MKazyrevich" target="_blank" class="link">achievements</a>);</li>
+            <li>Self-study of Javascript on the <a href="https://javascript.info/" target="_blank" class="link">javascript.info</a>;</li>
+            <li><a href="https://www.youtube.com/watch?v=en6gms6e54Q&list=PLIU76b8Cjem5B3sufBJ_KFTpKkMEvaTQR" target="_blank" class="link">YouTube course</a> on Git.</li>
+          </ul>
+        </section>
+        <section id="english-level">
+          <h2 class="caption">English level</h2>
+          <ul class="english-level-list description">
+            <li>Finished Streamline Intermediate (B1) course;</li>
+            <li>Work with technical literature (documentation, manuals, scientific articles) in English.</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
